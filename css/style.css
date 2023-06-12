@@ -1,0 +1,151 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,900;1,300;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100,300;0,500;1,300&display=swap");
+/*CSS for Navbar ======================*/
+body {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+}
+
+h1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 2.2rem !important;
+  font-weight: 300 !important;
+}
+
+.UNFnavbar {
+  background-color: #0a233f !important;
+  color: #ffffff;
+  padding: 0rem !important;
+  font-family: "Poppins", sans-serif;
+  font-size: 0.9rem !important;
+  font-weight: 300 !important;
+}
+
+.UNFnavbar2 {
+  color: #0a233f !important;
+  font-family: "Poppins", sans-serif;
+  font-size: 0.9rem !important;
+  font-weight: 300 !important;
+}
+
+.nav-link {
+  color: #ffffff !important;
+}
+
+.nav-link2 {
+  display: block;
+  font-weight: 300;
+  color: #000000;
+  text-decoration: none;
+  background: none;
+  border: 0;
+}
+
+.nav-link2:hover,
+.nav-link2:focus {
+  color: red;
+  text-decoration: underline;
+}
+.nav-link2:focus-visible {
+  outline: 0;
+}
+.nav-link2.disabled {
+  color: 0;
+  pointer-events: none;
+  cursor: default;
+}
+
+.UNFsearch {
+  font-family: "Poppins", sans-serif;
+  font-size: 0.9rem !important;
+  font-weight: 300 !important;
+  border-radius: 10px 0 0 10px !important;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.UNFsearchButton {
+  border-radius: 0 10px 10px 0 !important;
+  color: #ffffff;
+}
+
+.navbar {
+  padding-top: 0.2rem;
+  padding-bottom: 0.2rem;
+}
+
+.navbar-toggler {
+  color: #ffffff;
+  border-color: #284b74;
+}
+
+.navbar-toggler:focus {
+  outline: none !important;
+  box-shadow: none;
+}
+
+.navbar-light .navbar-toggler {
+  border: none;
+}
+
+[aria-expanded="true"] .navbar-toggler-icon-open {
+  display: none;
+}
+
+[aria-expanded="false"] .navbar-toggler-icon-close {
+  display: none;
+}
+
+.nav-link-groups {
+  padding-right: 0.5rem;
+  padding-left: 0.5rem;
+}
+
+.nav-link-groups {
+  color: #e2e2e2;
+  font-size: 1rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+}
+
+.nav-link-groups {
+  display: block;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out;
+}
+
+.dropdown-toggle::after {
+  transition: transform 0.15s linear !important;
+}
+
+.nav-link-groups:hover {
+  color: #ffffff;
+}
+
+.nav-link-groups.active {
+  color: #ffffff;
+}
+
+.nav-link-groups:focus {
+  color: #ffffff;
+}
+
+.nav-link {
+  color: #e2e2e2;
+  font-size: 1rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+}
+
+.dropdown-toggle::after {
+  -webkit-transition: -webkit-transform 0.15s linear !important;
+  transition: -webkit-transform 0.15s linear !important;
+  transition: transform 0.15s linear !important;
+  transition: transform 0.15s linear, -webkit-transform 0.15s linear !important;
+}
+
+.show.dropdown .dropdown-toggle::after {
+  -webkit-transform: translateY(3px) !important;
+  transform: translateY(3px) !important;
+}
