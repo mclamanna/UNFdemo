@@ -8,6 +8,22 @@ body {
   font-weight: 300;
 }
 
+.accordion-buttonCustom {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: var(--bs-accordion-btn-padding-y) var(--bs-accordion-btn-padding-x);
+    font-size: 1rem;
+    color: var(--bs-accordion-btn-color);
+    text-align: left;
+    background-color: var(--bs-accordion-btn-bg);
+    border: 0;
+    border-radius: 0;
+    overflow-anchor: none;
+    transition: var(--bs-accordion-transition);
+}
+
 .customBackground1 {
   background-color: #efc55c;
 }
@@ -118,7 +134,7 @@ h2 {
 }
 
 .nav-linkAcor {
-  font-weight: 300;
+  font-weight: 400;
   color: #000000;
   text-decoration: none;
   background: none;
