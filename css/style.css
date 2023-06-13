@@ -52,6 +52,12 @@ h2 {
   font-weight: 500 !important;
 }
 
+h3 {
+  font-family: 'Vollkorn', serif;
+  font-size: 1.6rem;
+  font-weight: 800;
+}
+
 .UNFnavbar {
   background-color: #0a233f !important;
   color: #ffffff;
@@ -70,6 +76,11 @@ h2 {
 
 .nav-link {
   color: #ffffff !important;
+}
+
+.active {
+  text-decoration: underline !important;
+  color: #0a58ca !important;
 }
 
 .nav-link2 {
