@@ -33,18 +33,24 @@ body {
 }
 
 .customBackground1 {
-  background-color: #efc55c;
+  background-color: #de1d50;
 }
 .customBackground2 {
   background-color: #2ca8d5;
 }
 .customBackground3 {
-  background-color: #33cf52;
+  background-color: #c8632c;
+}
+.customBackground4 {
+  background-color: #309744;
+}
+.customBackground5 {
+  background-color: #3a23ab;
 }
 
 .bigLinks {
   font-family: 'Vollkorn', serif;
-  font-size: 1.4rem;
+  font-size: 1.6rem;
   font-weight: 800;
 }
 
@@ -138,7 +144,7 @@ h3 {
 .big-link {
   display: block;
   font-weight: 300;
-  color: #000000;
+  color: #ffffff;
   text-decoration: none;
   background: none;
   border: 0;
