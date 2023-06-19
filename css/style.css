@@ -92,6 +92,11 @@ h3 {
 .nav-link {
   color: #ffffff !important;
 }
+.nav-link:hover,
+.nav-link:focus {
+  color: rgb(87, 86, 86);
+  text-decoration: underline;
+}
 
 .active {
   text-decoration: underline !important;

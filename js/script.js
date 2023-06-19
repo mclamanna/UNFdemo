@@ -33,3 +33,4 @@ function handleWindowSize() {
 
 window.addEventListener("load", handleWindowSize);
 window.addEventListener("resize", handleWindowSize);
+
