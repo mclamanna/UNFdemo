@@ -52,16 +52,20 @@ p {
   background-color: #de1d50;
 }
 .customBackground2 {
-  background-color: #2ca8d5;
+  background-color: #008ea9;
+  opacity: 80%;
 }
 .customBackground3 {
-  background-color: #c8632c;
+  background-color: #a37f0b;
 }
 .customBackground4 {
-  background-color: #309744;
+  background-color: #76bc43;
 }
 .customBackground5 {
-  background-color: #3a23ab;
+  background-color: #c41f4b;
+}
+.customBackground6 {
+  background-color: #7149b2;
 }
 
 .bigLinks {
