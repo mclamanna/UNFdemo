@@ -9,7 +9,9 @@
 body {
   font-family: 'Open Sans', sans-serif;
 }
-
+p {
+  font-size: 1.1rem;
+}
 [aria-expanded="true"] .navbar-toggler-icon-open {
   display: none;
 }
