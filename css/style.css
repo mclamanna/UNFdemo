@@ -18,6 +18,12 @@ body {
   display: none;
 }
 
+.titleFront {
+  font-size: 1.2rem;
+  font-family: 'Roboto Slab', serif;
+  font-weight: 700;
+ }
+
 .title {
   font-size: 2rem;
   font-family: 'Roboto Slab', serif;
