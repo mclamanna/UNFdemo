@@ -20,6 +20,10 @@ p {
   display: none;
 }
 
+hr {
+ margin: 0 !important;
+}
+
 .titleFront {
   font-size: 1.2rem;
   font-family: 'Roboto Slab', serif;
@@ -32,6 +36,13 @@ p {
   font-weight: 700;
  }
  
+ .title2 {
+  font-size: 1.2rem;
+  font-family: 'Roboto Slab', serif;
+  font-weight: 700;
+ }
+ 
+
 .accordion-buttonCustom {
     position: relative;
     display: flex;
