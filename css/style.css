@@ -124,6 +124,16 @@ h5 {
   font-weight: 300 !important;
 }
 
+.handout-link {
+  color: #000000;
+  text-decoration: none;
+}
+.handout-link:hover,
+.handout-link:focus {
+  color: #0a58ca;
+  text-decoration: underline;
+}
+
 .nav-link {
   color: #ffffff !important;
 }
