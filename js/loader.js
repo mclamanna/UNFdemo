@@ -1,4 +1,5 @@
 // JavaScript load navbar
+
 window.addEventListener('DOMContentLoaded', () => {
   const navbarContainer = document.getElementById('sidebarContainer');
 
