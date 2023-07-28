@@ -34,3 +34,18 @@ function handleWindowSize() {
 window.addEventListener("load", handleWindowSize);
 window.addEventListener("resize", handleWindowSize);
 
+// Get all elements with the class 'toggleButton'
+const toggleButtons = document.querySelectorAll('.toggleButton');
+
+// Loop through each toggle button and add the click event listener
+toggleButtons.forEach(toggleButton => {
+  const iconElement = toggleButton.querySelector('i');
+
+  // Add click event listener to the button
+  toggleButton.addEventListener('click', () => {
+    // Toggle the 'fa-circle-plus' and 'fa-circle-minus' classes
+    iconElement.classList.toggle('fa-circle-plus');
+    iconElement.classList.toggle('fa-circle-minus');
+  });
+});
+

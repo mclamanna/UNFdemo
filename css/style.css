@@ -42,7 +42,13 @@ hr {
   font-weight: 700;
  }
  
-
+ .fontButton:focus,
+ .fontButton:active {
+   outline: none !important;
+   box-shadow: none !important;
+   border-width: 0 !important;
+ }
+ 
 .accordion-buttonCustom {
     position: relative;
     display: flex;
