@@ -2,12 +2,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100,300;0,500;1,300&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Vollkorn:ital,wght@0,500;0,700;0,800;1,400;1,700&display=swap'); */
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;500;600;700;800;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;500;600;700;800;900&display=swap");
 /*CSS for Navbar ======================*/
-@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,600;0,700;1,400;1,600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,600;0,700;1,400;1,600&display=swap");
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 p {
   font-size: 1.1rem;
@@ -21,48 +21,48 @@ p {
 }
 
 hr {
- margin: 0 !important;
+  margin: 0 !important;
 }
 
 .titleFront {
   font-size: 1.2rem;
-  font-family: 'Roboto Slab', serif;
+  font-family: "Roboto Slab", serif;
   font-weight: 700;
- }
+}
 
 .title {
   font-size: 2rem;
-  font-family: 'Roboto Slab', serif;
+  font-family: "Roboto Slab", serif;
   font-weight: 700;
- }
- 
- .title2 {
+}
+
+.title2 {
   font-size: 1.2rem;
-  font-family: 'Roboto Slab', serif;
+  font-family: "Roboto Slab", serif;
   font-weight: 700;
- }
- 
- .fontButton:focus,
- .fontButton:active {
-   outline: none !important;
-   box-shadow: none !important;
-   border-width: 0 !important;
- }
- 
+}
+
+.fontButton:focus,
+.fontButton:active {
+  outline: none !important;
+  box-shadow: none !important;
+  border-width: 0 !important;
+}
+
 .accordion-buttonCustom {
-    position: relative;
-    display: flex;
-    align-items: center;
-    width: 100%;
-    padding: var(--bs-accordion-btn-padding-y) var(--bs-accordion-btn-padding-x);
-    font-size: 1rem;
-    color: var(--bs-accordion-btn-color);
-    text-align: left;
-    background-color: var(--bs-accordion-btn-bg);
-    border: 0;
-    border-radius: 0;
-    overflow-anchor: none;
-    transition: var(--bs-accordion-transition);
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: var(--bs-accordion-btn-padding-y) var(--bs-accordion-btn-padding-x);
+  font-size: 1rem;
+  color: var(--bs-accordion-btn-color);
+  text-align: left;
+  background-color: var(--bs-accordion-btn-bg);
+  border: 0;
+  border-radius: 0;
+  overflow-anchor: none;
+  transition: var(--bs-accordion-transition);
 }
 
 .customBackground1 {
@@ -93,33 +93,36 @@ hr {
 .customBackground9 {
   background-color: #d6c28e;
 }
+.customBackground10 {
+  background-color: #d4ebe8;
+}
 
 .bigLinks {
-  font-family: 'Crimson Text', serif;
+  font-family: "Crimson Text", serif;
   font-size: 1.6rem;
   font-weight: 800;
 }
 
 h1 {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 2.2rem !important;
   font-weight: 300 !important;
 }
 
 h2 {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 1.3rem !important;
   font-weight: 500 !important;
 }
 
 h3 {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 1.6rem;
   font-weight: 800;
 }
 
 h5 {
-  font-family: 'Roboto Slab', serif;
+  font-family: "Roboto Slab", serif;
   font-size: 1.2rem !important;
 }
 
@@ -127,14 +130,14 @@ h5 {
   background-color: #0a233f !important;
   color: #ffffff;
   padding: 0rem !important;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 0.9rem !important;
   font-weight: 300 !important;
 }
 
 .UNFnavbar2 {
   color: #0a233f !important;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 0.9rem !important;
   font-weight: 300 !important;
 }
@@ -164,14 +167,14 @@ h5 {
 }
 
 .nav-link2 {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   display: block;
   font-weight: 500;
   color: #000000;
   text-decoration: none;
   background: none;
   border: 0;
-  padding: .9rem;
+  padding: 0.9rem;
 }
 .nav-link2:hover,
 .nav-link2:focus {
@@ -188,7 +191,7 @@ h5 {
 }
 
 .nav-link3 {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: 300;
   font-size: 1rem;
   color: #000000;
@@ -210,14 +213,14 @@ h5 {
 }
 
 .big-link {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   display: block;
   font-weight: 300;
   color: #ffffff;
   text-decoration: none;
   background: none;
   border: 0;
-  padding: .9rem;
+  padding: 0.9rem;
 }
 .big-link:hover,
 .nbig-link:focus {
@@ -228,7 +231,7 @@ h5 {
 }
 
 .nav-linkAcor {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: 400;
   color: #000000;
   text-decoration: none;
@@ -249,7 +252,6 @@ h5 {
   cursor: default;
 }
 
-
 .nav-link2.disabled {
   color: 0;
   pointer-events: none;
@@ -257,7 +259,7 @@ h5 {
 }
 
 .sectionText {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: 300;
   font-size: 1rem;
   color: #000000;
@@ -266,7 +268,7 @@ h5 {
 }
 
 .UNFsearch {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 0.9rem !important;
   font-weight: 300 !important;
   border-radius: 10px 0 0 10px !important;
@@ -336,7 +338,7 @@ h5 {
 .nav-link {
   color: #e2e2e2;
   font-size: 1rem;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: 300;
 }
 
