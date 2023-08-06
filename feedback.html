@@ -108,90 +108,110 @@
             </div>
 
             <div class="col-8 mt-3">
-                <div class="mb-4"><span class="title">Off Campus Counseling Referrals</span>
+                <div class="mb-4"><span class="title">Mental Health and Counseling Services: Questions and Feedback
+                        Form</span>
                     <hr>
-                    <p>Sometimes seeking off campus therapy or
-                        medication services is your best option to address
-                        a particular concern or meet your individual
-                        needs.</p>
+                    <p>Have a suggestion? Have a questions or need something about our services clarified?
+                    <p></p>
+                    As University Health Services continues to evolve its services and resources to support student
+                    mental health, please use this form for any questions you have that we can address or clarify in
+                    our communications or any feedback/input that we can incorporate as we further build out our
+                    resources and services.
+                    <p></p>
+                    Your input is valued and thank you for taking the time to share with us!</p>
                 </div>
                 <div class="col-12">
-                    <img src="https://mclamanna.github.io/UNFdemo.github.io/images/referral.png" class="img-fluid"
-                        alt="...">
                     <div class="row mt-3">
-                        <div class="col-8 mt-2">
-                            <h5>Reasons to see off-campus mental health providers:</h5>
-                        </div>
-                        <div class="col-12">
-                            <ul>
-                                <li>You may be able to see a therapist on evenings or weekends.</li>
-                                <li>You typically have more flexibility to see a therapist for as long as you need or
-                                    want. This is particularly beneficial when you have longstanding, complex, or
-                                    more severe issues—you may find that you can make more progress on such
-                                    issues when you are able to continue in therapy for longer than is usually
-                                    possible on campus.</li>
-                                <li>You often have more choice in the therapist you see.</li>
-                                <li>Certain services are available that are not available on campus, such as intensive
-                                    outpatient and inpatient treatment for mental illness, eating disorders, and
-                                    substance use disorders and comprehensive psychological or educational
-                                    testing.</li>
-                                <li>You may prefer seeing an off-campus therapist for other reasons, such as when
-                                    you live off campus.</li>
-                            </ul>
-                        </div>
-                        <div class="col-12 mt-2 mb-2">
-                            <h5>If you are interested in working with a provider in the community below are
-                                several different resources to help you connect with mental health resources.</h5>
-                        </div>
-
-                        <div class="col-12 customBackground10 rounded p-2 shadow-sm">
-                            <span class="fw-bold">UNF Referral Database</span>
-                            <button class="btn fontButton toggleButton" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#collapseExample1" aria-expanded="false"
-                                aria-controls="collapseExample1">
-                                <i class="fa-solid fa-circle-plus"></i>
-                            </button>
-                            <div class="collapse" id="collapseExample1">
-                                <div class="card card-body shadow-sm">
-                                    <ul>
-                                        <li>This searchable database contains names of clinicians that have
-                                            expressed interest in working with UNF students. If you need help with
-                                            referrals, you are welcome to request assistance from a UNF counselor or
-                                            case manager.</li>
-                                        <a href="https://www.drlauriesantos.com/happiness-lab-podcast"
-                                            target="_blank"><button type="button"
-                                                class="btn btn-outline-success btn-sm mt-1"><i
-                                                    class="fa-solid fa-file-excel"></i>
-                                                Download Database</button></a>
-                                    </ul>
+                        <div class="col-8">
+                            <form id="contact-form" method="post" action="contact.php" role="form">
+                                <div class="controls">
+                                    <div class="row">
+                                        <div class="col-lg-6s mb-4">
+                                            <div class="form-group">
+                                                <label for="form_message">What questions do you have?</label>
+                                                <textarea id="form_message" name="message" class="form-control" rows="4"
+                                                    required="required" placeholder="Your answer"
+                                                    data-error="Please, leave us a message."></textarea>
+                                                <div class="help-block with-errors"></div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6s mb-4">
+                                            <div class="form-group">
+                                                <label for="form_message">Is there anything about our mental health
+                                                    services that we can better explain/clarify?</label>
+                                                <textarea id="form_message" name="message" class="form-control" rows="4"
+                                                    required="required" placeholder="Your answer"
+                                                    data-error="Please, leave us a message."></textarea>
+                                                <div class="help-block with-errors"></div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6s mb-4">
+                                            <div class="form-group">
+                                                <label for="form_message">Any feedback or input you would like to offer
+                                                    that will help us as we evolve our services and resources?</label>
+                                                <textarea id="form_message" name="message" class="form-control" rows="4"
+                                                    required="required" placeholder="Your answer"
+                                                    data-error="Please, leave us a message."></textarea>
+                                                <div class="help-block with-errors"></div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6s mb-4">
+                                            <div class="form-group">
+                                                <label for="form_message">What types of services beyond individual
+                                                    counseling would help meet your needs better?</label>
+                                                <textarea id="form_message" name="message" class="form-control" rows="4"
+                                                    required="required" placeholder="Your answer"
+                                                    data-error="Please, leave us a message."></textarea>
+                                                <div class="help-block with-errors"></div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6s mb-4">
+                                            <div class="form-group">
+                                                <label for="form_message">Anything else to add?</label>
+                                                <textarea id="form_message" name="message" class="form-control" rows="4"
+                                                    required="required" placeholder="Your answer"
+                                                    data-error="Please, leave us a message."></textarea>
+                                                <div class="help-block with-errors"></div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6s mb-4">
+                                            <div class="form-group">
+                                                <label for="form_message">May someone from UHS reach out to you if we
+                                                    need more information/details from you?</label>
+                                                <div class="form-check">
+                                                    <input class="form-check-input" type="checkbox" value=""
+                                                        id="flexCheckDefault">
+                                                    <label class="form-check-label" for="flexCheckDefault">
+                                                        Yes
+                                                    </label>
+                                                </div>
+                                                <div class="form-check">
+                                                    <input class="form-check-input" type="checkbox" value=""
+                                                        id="flexCheckChecked">
+                                                    <label class="form-check-label" for="flexCheckChecked">
+                                                        No
+                                                    </label>
+                                                </div>
+                                                <div class="help-block with-errors"></div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6s mb-2">
+                                            <div class="form-group">
+                                                <label for="form_message">If so, please provide your contact
+                                                    information</label>
+                                                <textarea id="form_message" name="message" class="form-control" rows="4"
+                                                    required="required" placeholder="Your answer"
+                                                    data-error="Please, leave us a message."></textarea>
+                                                <div class="help-block with-errors"></div>
+                                            </div>
+                                        </div>
+                                        <div class="col-4 mb-4">
+                                            <input type="submit" class="btn btn-success btn-send mt-4"
+                                                value="Send message">
+                                        </div>
+                                    </div>
                                 </div>
-                            </div>
-                        </div>
-
-                        <div class="col-12 customBackground10 rounded p-2 shadow-sm mt-2">
-                            <span class="fw-bold">Other Resources to Help Find Mental Health Provider</span>
-                            <button class="btn fontButton toggleButton" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#collapseExample2" aria-expanded="false"
-                                aria-controls="collapseExample2">
-                                <i class="fa-solid fa-circle-plus"></i>
-                            </button>
-                            <div class="collapse" id="collapseExample2">
-                                <div class="card card-body shadow-sm">
-                                    <ul>
-                                        <li><a href="https://www.psychologytoday.com/us" target="_blank">Psychology
-                                                Today</a></li>
-                                        <li><a href="https://www.therapyden.com/" target="_blank">Therapy Den
-                                            </a></li>
-                                        <li><a href="https://headway.co/" target="_blank">Headway</a></li>
-                                        <li><a href="https://helloalma.com/" target="_blank">Alma</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-12 mt-3">
-                            <h5>As the UNF Counseling Center is not affiliated with any insurance carriers or
-                                other third-party databases, we are unable to vouch for or endorse any of the
-                                providers you may be referred to.</h5>
+                            </form>
                         </div>
 
 
